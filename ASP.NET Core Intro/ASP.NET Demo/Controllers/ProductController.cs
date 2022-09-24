@@ -33,8 +33,15 @@ namespace ASP.NET_Demo.Controllers
         {
             return View();
         }
-        public IActionResult All()
+        [ActionName("My-Products")]
+        public IActionResult All(string keyword)
         {
+            if (keyword != null)
+            {
+                var prod = products
+                    .Where(x => x.Name.ToLower().Contains(keyword.ToLower()));
+                return View(prod);
+            }
             return View(products);
         }
         public IActionResult ById(int id = 1)
