@@ -29,6 +29,12 @@ namespace ASP.NET_Demo.Controllers
         {
             return View();
         }
+            
+        public IActionResult NumbersToN(int count = 3)
+        {
+            ViewBag.Count = count;
+            return View();
+        }
 
         public IActionResult Privacy()
         {
