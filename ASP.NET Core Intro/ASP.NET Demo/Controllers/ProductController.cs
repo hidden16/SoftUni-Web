@@ -1,5 +1,6 @@
 ﻿using ASP.NET_Demo.Models;
 using Microsoft.AspNetCore.Mvc;
+using System.Text.Json;
 
 namespace ASP.NET_Demo.Controllers
 {
@@ -32,11 +33,11 @@ namespace ASP.NET_Demo.Controllers
         {
             return View();
         }
-         public IActionResult All()
+        public IActionResult All()
         {
             return View(products);
         }
-         public IActionResult ById(int id = 1)
+        public IActionResult ById(int id = 1)
         {
             var product = products
                 .FirstOrDefault(x => x.Id == id);
@@ -45,6 +46,14 @@ namespace ASP.NET_Demo.Controllers
                 return BadRequest();
             }
             return View(product);
+        }
+        public IActionResult AllAsJson()
+        {
+            var options = new JsonSerializerOptions()
+            {
+                WriteIndented = true
+            };
+            return Json(products, options);
         }
 
     }

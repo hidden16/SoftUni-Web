@@ -43,6 +43,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxBbGwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/Git/SoftUni-Web/ASP.NET Core Intro/ASP.NET Demo/Views/Product/AllAsJson.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxBbGxBc0pzb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Git/SoftUni-Web/ASP.NET Core Intro/ASP.NET Demo/Views/Product/ById.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxCeUlkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
