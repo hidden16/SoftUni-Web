@@ -55,6 +55,16 @@ namespace ASP.NET_Demo.Controllers
             };
             return Json(products, options);
         }
+        public IActionResult AllAsText()
+        {
+            var text = string.Empty;
+            foreach (var item in products)
+            {
+                text += $"Product {item.Id}: {item.Name} - {item.Price}lv";
+                text += "\r\n";
+            }
+            return Content(text);
+        }
 
     }
 }
