@@ -1,0 +1,70 @@
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Demo\bin\Debug\net6.0\appsettings.Development.json
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Demo\bin\Debug\net6.0\appsettings.json
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Demo\bin\Debug\net6.0\ASP.NET Demo.staticwebassets.runtime.json
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Demo\bin\Debug\net6.0\ASP.NET Demo.exe
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Demo\bin\Debug\net6.0\ASP.NET Demo.deps.json
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Demo\bin\Debug\net6.0\ASP.NET Demo.runtimeconfig.json
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Demo\bin\Debug\net6.0\ASP.NET Demo.dll
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Demo\bin\Debug\net6.0\ref\ASP.NET Demo.dll
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Demo\bin\Debug\net6.0\ASP.NET Demo.pdb
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Demo\bin\Debug\net6.0\Humanizer.dll
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Demo\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Demo\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Demo\bin\Debug\net6.0\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Demo\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Demo\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.UI.dll
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Demo\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Demo\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Demo\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Demo\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Demo\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Demo\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Demo\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Demo\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Embedded.dll
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Demo\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Demo\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Demo\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Demo\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Demo\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Demo\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Demo\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Demo\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Demo\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Demo\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Demo\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Demo\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Demo\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Demo\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Demo\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Demo\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Demo\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Demo\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Demo\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Demo\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Demo\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Demo\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Demo\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Demo\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Demo\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Demo\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Demo\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Demo\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Demo\obj\Debug\net6.0\ASP.NET Demo.csproj.AssemblyReference.cache
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Demo\obj\Debug\net6.0\ASP.NET Demo.GeneratedMSBuildEditorConfig.editorconfig
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Demo\obj\Debug\net6.0\ASP.NET Demo.AssemblyInfoInputs.cache
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Demo\obj\Debug\net6.0\ASP.NET Demo.AssemblyInfo.cs
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Demo\obj\Debug\net6.0\ASP.NET Demo.csproj.CoreCompileInputs.cache
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Demo\obj\Debug\net6.0\ASP.NET Demo.MvcApplicationPartsAssemblyInfo.cs
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Demo\obj\Debug\net6.0\ASP.NET Demo.MvcApplicationPartsAssemblyInfo.cache
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Demo\obj\Debug\net6.0\ASP.NET Demo.RazorAssemblyInfo.cache
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Demo\obj\Debug\net6.0\ASP.NET Demo.RazorAssemblyInfo.cs
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Demo\obj\Debug\net6.0\staticwebassets.build.json
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Demo\obj\Debug\net6.0\staticwebassets.development.json
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Demo\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Demo\obj\Debug\net6.0\scopedcss\bundle\ASP.NET Demo.styles.css
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Demo\obj\Debug\net6.0\scopedcss\projectbundle\ASP.NET Demo.bundle.scp.css
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Demo\obj\Debug\net6.0\ASP.NET Demo.csproj.CopyComplete
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Demo\obj\Debug\net6.0\ASP.NET Demo.dll
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Demo\obj\Debug\net6.0\ref\ASP.NET Demo.dll
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Demo\obj\Debug\net6.0\ASP.NET Demo.pdb
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Demo\obj\Debug\net6.0\ASP.NET Demo.genruntimeconfig.cache

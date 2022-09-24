@@ -15,6 +15,7 @@ namespace ASP.NET_Demo.Controllers
 
         public IActionResult Index()
         {
+            ViewBag.Message = "Hello World!";
             return View();
         }
 
