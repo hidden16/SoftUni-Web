@@ -1,6 +1,6 @@
+using ASP.NET_Demo.Data;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-using ASP.NET_Demo.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
