@@ -24,6 +24,11 @@ namespace ASP.NET_Demo.Controllers
             ViewBag.Message = "This is an ASP.NET Core MVC app.";
             return View();
         }
+          
+        public IActionResult Numbers()
+        {
+            return View();
+        }
 
         public IActionResult Privacy()
         {
