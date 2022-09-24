@@ -36,6 +36,16 @@ namespace ASP.NET_Demo.Controllers
         {
             return View(products);
         }
+         public IActionResult ById(int id = 1)
+        {
+            var product = products
+                .FirstOrDefault(x => x.Id == id);
+            if (product == null)
+            {
+                return BadRequest();
+            }
+            return View(product);
+        }
 
     }
 }
