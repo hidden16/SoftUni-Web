@@ -34,18 +34,15 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="NumbersToN">NumbersToN</a>
                         </li>
-                        <li>
-                            <div class="dropdown">
-                                <a class="btn btn-primary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    Dropdown link
-                                </a>
-
-                                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                    <a class="dropdown-item" href="#">Action</a>
-                                    <a class="dropdown-item" href="#">Another action</a>
-                                    <a class="dropdown-item" href="#">Something else here</a>
-                                </div>
-                            </div>
+                         <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Products
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" asp-controller="Product" asp-action="My-Products">All</a></li>
+                                <li><a class="dropdown-item" asp-controller="Product" asp-action="AllAsJson">All (JSON)</a></li>
+                                <li><a class="dropdown-item" asp-controller="Product" asp-action="AllAstext">All (Text)</a></li>
+                            </ul>
                         </li>
                     </ul>
                     <partial name="_LoginPartial" />
