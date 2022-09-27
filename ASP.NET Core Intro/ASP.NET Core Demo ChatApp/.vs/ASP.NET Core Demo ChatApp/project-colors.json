@@ -1,5 +1,11 @@
 {
   "Version": 1,
-  "ProjectMap": {},
-  "NextColorIndex": 0
+  "ProjectMap": {
+    "2f38bef0-a904-4cd1-b4f7-8faca169b4d4": {
+      "ProjectGuid": "2f38bef0-a904-4cd1-b4f7-8faca169b4d4",
+      "DisplayName": "ASP.NET Core Demo ChatApp",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
 }

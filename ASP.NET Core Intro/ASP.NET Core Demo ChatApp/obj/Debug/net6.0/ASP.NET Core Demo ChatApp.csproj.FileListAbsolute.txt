@@ -1,0 +1,70 @@
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Core Demo ChatApp\bin\Debug\net6.0\appsettings.Development.json
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Core Demo ChatApp\bin\Debug\net6.0\appsettings.json
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Core Demo ChatApp\bin\Debug\net6.0\ASP.NET Core Demo ChatApp.staticwebassets.runtime.json
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Core Demo ChatApp\bin\Debug\net6.0\ASP.NET Core Demo ChatApp.exe
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Core Demo ChatApp\bin\Debug\net6.0\ASP.NET Core Demo ChatApp.deps.json
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Core Demo ChatApp\bin\Debug\net6.0\ASP.NET Core Demo ChatApp.runtimeconfig.json
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Core Demo ChatApp\bin\Debug\net6.0\ASP.NET Core Demo ChatApp.dll
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Core Demo ChatApp\bin\Debug\net6.0\ref\ASP.NET Core Demo ChatApp.dll
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Core Demo ChatApp\bin\Debug\net6.0\ASP.NET Core Demo ChatApp.pdb
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Core Demo ChatApp\bin\Debug\net6.0\Humanizer.dll
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Core Demo ChatApp\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Core Demo ChatApp\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Core Demo ChatApp\bin\Debug\net6.0\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Core Demo ChatApp\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Core Demo ChatApp\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.UI.dll
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Core Demo ChatApp\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Core Demo ChatApp\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Core Demo ChatApp\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Core Demo ChatApp\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Core Demo ChatApp\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Core Demo ChatApp\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Core Demo ChatApp\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Core Demo ChatApp\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Embedded.dll
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Core Demo ChatApp\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Core Demo ChatApp\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Core Demo ChatApp\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Core Demo ChatApp\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Core Demo ChatApp\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Core Demo ChatApp\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Core Demo ChatApp\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Core Demo ChatApp\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Core Demo ChatApp\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Core Demo ChatApp\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Core Demo ChatApp\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Core Demo ChatApp\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Core Demo ChatApp\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Core Demo ChatApp\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Core Demo ChatApp\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Core Demo ChatApp\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Core Demo ChatApp\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Core Demo ChatApp\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Core Demo ChatApp\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Core Demo ChatApp\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Core Demo ChatApp\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Core Demo ChatApp\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Core Demo ChatApp\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Core Demo ChatApp\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Core Demo ChatApp\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Core Demo ChatApp\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Core Demo ChatApp\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Core Demo ChatApp\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Core Demo ChatApp\obj\Debug\net6.0\ASP.NET Core Demo ChatApp.csproj.AssemblyReference.cache
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Core Demo ChatApp\obj\Debug\net6.0\ASP.NET Core Demo ChatApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Core Demo ChatApp\obj\Debug\net6.0\ASP.NET Core Demo ChatApp.AssemblyInfoInputs.cache
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Core Demo ChatApp\obj\Debug\net6.0\ASP.NET Core Demo ChatApp.AssemblyInfo.cs
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Core Demo ChatApp\obj\Debug\net6.0\ASP.NET Core Demo ChatApp.csproj.CoreCompileInputs.cache
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Core Demo ChatApp\obj\Debug\net6.0\ASP.NET Core Demo ChatApp.MvcApplicationPartsAssemblyInfo.cs
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Core Demo ChatApp\obj\Debug\net6.0\ASP.NET Core Demo ChatApp.MvcApplicationPartsAssemblyInfo.cache
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Core Demo ChatApp\obj\Debug\net6.0\ASP.NET Core Demo ChatApp.RazorAssemblyInfo.cache
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Core Demo ChatApp\obj\Debug\net6.0\ASP.NET Core Demo ChatApp.RazorAssemblyInfo.cs
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Core Demo ChatApp\obj\Debug\net6.0\staticwebassets.build.json
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Core Demo ChatApp\obj\Debug\net6.0\staticwebassets.development.json
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Core Demo ChatApp\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Core Demo ChatApp\obj\Debug\net6.0\scopedcss\bundle\ASP.NET Core Demo ChatApp.styles.css
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Core Demo ChatApp\obj\Debug\net6.0\scopedcss\projectbundle\ASP.NET Core Demo ChatApp.bundle.scp.css
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Core Demo ChatApp\obj\Debug\net6.0\ASP.NET Core Demo ChatApp.csproj.CopyComplete
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Core Demo ChatApp\obj\Debug\net6.0\ASP.NET Core Demo ChatApp.dll
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Core Demo ChatApp\obj\Debug\net6.0\ref\ASP.NET Core Demo ChatApp.dll
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Core Demo ChatApp\obj\Debug\net6.0\ASP.NET Core Demo ChatApp.pdb
+D:\Git\SoftUni-Web\ASP.NET Core Intro\ASP.NET Core Demo ChatApp\obj\Debug\net6.0\ASP.NET Core Demo ChatApp.genruntimeconfig.cache
