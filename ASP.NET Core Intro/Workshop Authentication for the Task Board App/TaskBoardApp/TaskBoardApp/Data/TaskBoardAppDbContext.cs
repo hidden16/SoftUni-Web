@@ -47,7 +47,7 @@ namespace TaskBoardApp.Data
                     Title = "Prepare for ASP.NET Fundamentals exam",
                     Description = "Learn using ASP.NET Identity",
                     CreatedOn = DateTime.Now.AddMonths(-1),
-                    OwnerId = this.GuestUser.Id,
+                    UserId = this.GuestUser.Id,
                     BoardId = this.OpenBoard.Id
                 },
                 new Entitites.Task()
@@ -56,7 +56,7 @@ namespace TaskBoardApp.Data
                     Title = "Improve EF Core skills",
                     Description = "Learn using EF Core and MS SQL Server Management Studio",
                     CreatedOn = DateTime.Now.AddMonths(-5),
-                    OwnerId = this.GuestUser.Id,
+                    UserId = this.GuestUser.Id,
                     BoardId = this.DoneBoard.Id
                 },
                 new Entitites.Task()
@@ -65,7 +65,7 @@ namespace TaskBoardApp.Data
                     Title = "Improve ASP.NET Core skills",
                     Description = "Learn using ASP.NET Core Identity",
                     CreatedOn = DateTime.Now.AddDays(-10),
-                    OwnerId = this.GuestUser.Id,
+                    UserId = this.GuestUser.Id,
                     BoardId = this.InProgressBoard.Id
                 },
                 new Entitites.Task()
@@ -74,7 +74,7 @@ namespace TaskBoardApp.Data
                     Title = "Prepare for C# Fundamentals Exam",
                     Description = "Prepare by solving old Mid and Final exams",
                     CreatedOn = DateTime.Now.AddYears(-1),
-                    OwnerId = this.GuestUser.Id,
+                    UserId = this.GuestUser.Id,
                     BoardId = this.DoneBoard.Id,
                 });
 

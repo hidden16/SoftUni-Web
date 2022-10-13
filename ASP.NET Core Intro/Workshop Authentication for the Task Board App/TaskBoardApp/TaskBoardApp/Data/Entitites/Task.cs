@@ -23,7 +23,7 @@ namespace TaskBoardApp.Data.Entitites
         public Board? Board { get; init; }
 
         [Required]
-        public string OwnerId { get; set; } = null!;
+        public string UserId { get; set; } = null!;
         public User User { get; init; } = null!;
     }
 }

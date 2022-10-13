@@ -12,8 +12,8 @@ using TaskBoardApp.Data;
 namespace TaskBoardApp.Data.Migrations
 {
     [DbContext(typeof(TaskBoardAppDbContext))]
-    [Migration("20221013153006_InitialMigration")]
-    partial class InitialMigration
+    [Migration("20221013171425_Initial")]
+    partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -215,16 +215,13 @@ namespace TaskBoardApp.Data.Migrations
                         .HasMaxLength(1000)
                         .HasColumnType("nvarchar(1000)");
 
-                    b.Property<string>("OwnerId")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("Title")
                         .IsRequired()
                         .HasMaxLength(70)
                         .HasColumnType("nvarchar(70)");
 
                     b.Property<string>("UserId")
+                        .IsRequired()
                         .HasColumnType("nvarchar(450)");
 
                     b.HasKey("Id");
@@ -240,37 +237,37 @@ namespace TaskBoardApp.Data.Migrations
                         {
                             Id = 1,
                             BoardId = 1,
-                            CreatedOn = new DateTime(2022, 9, 13, 18, 30, 6, 634, DateTimeKind.Local).AddTicks(5985),
+                            CreatedOn = new DateTime(2022, 9, 13, 20, 14, 23, 598, DateTimeKind.Local).AddTicks(6012),
                             Description = "Learn using ASP.NET Identity",
-                            OwnerId = "c2350e81-947f-4c5c-9899-b2f0f32908aa",
-                            Title = "Prepare for ASP.NET Fundamentals exam"
+                            Title = "Prepare for ASP.NET Fundamentals exam",
+                            UserId = "a8f7b380-0bf2-47d6-b6c3-b091c5c7569d"
                         },
                         new
                         {
                             Id = 2,
                             BoardId = 3,
-                            CreatedOn = new DateTime(2022, 5, 13, 18, 30, 6, 634, DateTimeKind.Local).AddTicks(6022),
+                            CreatedOn = new DateTime(2022, 5, 13, 20, 14, 23, 598, DateTimeKind.Local).AddTicks(6081),
                             Description = "Learn using EF Core and MS SQL Server Management Studio",
-                            OwnerId = "c2350e81-947f-4c5c-9899-b2f0f32908aa",
-                            Title = "Improve EF Core skills"
+                            Title = "Improve EF Core skills",
+                            UserId = "a8f7b380-0bf2-47d6-b6c3-b091c5c7569d"
                         },
                         new
                         {
                             Id = 3,
                             BoardId = 2,
-                            CreatedOn = new DateTime(2022, 10, 3, 18, 30, 6, 634, DateTimeKind.Local).AddTicks(6024),
+                            CreatedOn = new DateTime(2022, 10, 3, 20, 14, 23, 598, DateTimeKind.Local).AddTicks(6084),
                             Description = "Learn using ASP.NET Core Identity",
-                            OwnerId = "c2350e81-947f-4c5c-9899-b2f0f32908aa",
-                            Title = "Improve ASP.NET Core skills"
+                            Title = "Improve ASP.NET Core skills",
+                            UserId = "a8f7b380-0bf2-47d6-b6c3-b091c5c7569d"
                         },
                         new
                         {
                             Id = 4,
                             BoardId = 3,
-                            CreatedOn = new DateTime(2021, 10, 13, 18, 30, 6, 634, DateTimeKind.Local).AddTicks(6027),
+                            CreatedOn = new DateTime(2021, 10, 13, 20, 14, 23, 598, DateTimeKind.Local).AddTicks(6087),
                             Description = "Prepare by solving old Mid and Final exams",
-                            OwnerId = "c2350e81-947f-4c5c-9899-b2f0f32908aa",
-                            Title = "Prepare for C# Fundamentals Exam"
+                            Title = "Prepare for C# Fundamentals Exam",
+                            UserId = "a8f7b380-0bf2-47d6-b6c3-b091c5c7569d"
                         });
                 });
 
@@ -351,9 +348,9 @@ namespace TaskBoardApp.Data.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "c2350e81-947f-4c5c-9899-b2f0f32908aa",
+                            Id = "a8f7b380-0bf2-47d6-b6c3-b091c5c7569d",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "3864bba2-3ab4-4c80-b471-e1b89ff98902",
+                            ConcurrencyStamp = "be3bea9e-d92d-4276-9d28-9a87ca0611bd",
                             Email = "guest@mail.com",
                             EmailConfirmed = false,
                             FirstName = "Guest",
@@ -361,9 +358,9 @@ namespace TaskBoardApp.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "GUEST@MAIL.COM",
                             NormalizedUserName = "GUEST",
-                            PasswordHash = "AQAAAAEAACcQAAAAEHkPcjwVpa/76OfRtoklVE0HSBuhsAGN/RaEGhhp2epbovivW+dbx5Khpte1ewEMUQ==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEE0KnSp3nNN5f1MB8e36ImVipzqUfYzBfaHgV6VdcTNDsS+jY+BGViSUwgKBwMpi1g==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "54743a6f-7c61-48ff-b788-954b6a09c526",
+                            SecurityStamp = "35db648a-4763-4a0d-ae23-3aeeac6a952b",
                             TwoFactorEnabled = false,
                             UserName = "guest"
                         });
@@ -429,7 +426,9 @@ namespace TaskBoardApp.Data.Migrations
 
                     b.HasOne("TaskBoardApp.Data.Entitites.User", "User")
                         .WithMany()
-                        .HasForeignKey("UserId");
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.Navigation("Board");
 

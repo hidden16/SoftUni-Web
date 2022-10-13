@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace TaskBoardApp.Data.Migrations
 {
-    public partial class InitialMigration : Migration
+    public partial class Initial : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -48,8 +48,7 @@ namespace TaskBoardApp.Data.Migrations
                     Description = table.Column<string>(type: "nvarchar(1000)", maxLength: 1000, nullable: false),
                     CreatedOn = table.Column<DateTime>(type: "datetime2", nullable: false),
                     BoardId = table.Column<int>(type: "int", nullable: true),
-                    OwnerId = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    UserId = table.Column<string>(type: "nvarchar(450)", nullable: true)
+                    UserId = table.Column<string>(type: "nvarchar(450)", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -58,7 +57,8 @@ namespace TaskBoardApp.Data.Migrations
                         name: "FK_Tasks_AspNetUsers_UserId",
                         column: x => x.UserId,
                         principalTable: "AspNetUsers",
-                        principalColumn: "Id");
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
                         name: "FK_Tasks_Boards_BoardId",
                         column: x => x.BoardId,
@@ -70,7 +70,7 @@ namespace TaskBoardApp.Data.Migrations
             migrationBuilder.InsertData(
                 table: "AspNetUsers",
                 columns: new[] { "Id", "AccessFailedCount", "ConcurrencyStamp", "Email", "EmailConfirmed", "FirstName", "LastName", "LockoutEnabled", "LockoutEnd", "NormalizedEmail", "NormalizedUserName", "PasswordHash", "PhoneNumber", "PhoneNumberConfirmed", "SecurityStamp", "TwoFactorEnabled", "UserName" },
-                values: new object[] { "c2350e81-947f-4c5c-9899-b2f0f32908aa", 0, "3864bba2-3ab4-4c80-b471-e1b89ff98902", "guest@mail.com", false, "Guest", "User", false, null, "GUEST@MAIL.COM", "GUEST", "AQAAAAEAACcQAAAAEHkPcjwVpa/76OfRtoklVE0HSBuhsAGN/RaEGhhp2epbovivW+dbx5Khpte1ewEMUQ==", null, false, "54743a6f-7c61-48ff-b788-954b6a09c526", false, "guest" });
+                values: new object[] { "a8f7b380-0bf2-47d6-b6c3-b091c5c7569d", 0, "be3bea9e-d92d-4276-9d28-9a87ca0611bd", "guest@mail.com", false, "Guest", "User", false, null, "GUEST@MAIL.COM", "GUEST", "AQAAAAEAACcQAAAAEE0KnSp3nNN5f1MB8e36ImVipzqUfYzBfaHgV6VdcTNDsS+jY+BGViSUwgKBwMpi1g==", null, false, "35db648a-4763-4a0d-ae23-3aeeac6a952b", false, "guest" });
 
             migrationBuilder.InsertData(
                 table: "Boards",
@@ -84,13 +84,13 @@ namespace TaskBoardApp.Data.Migrations
 
             migrationBuilder.InsertData(
                 table: "Tasks",
-                columns: new[] { "Id", "BoardId", "CreatedOn", "Description", "OwnerId", "Title", "UserId" },
+                columns: new[] { "Id", "BoardId", "CreatedOn", "Description", "Title", "UserId" },
                 values: new object[,]
                 {
-                    { 1, 1, new DateTime(2022, 9, 13, 18, 30, 6, 634, DateTimeKind.Local).AddTicks(5985), "Learn using ASP.NET Identity", "c2350e81-947f-4c5c-9899-b2f0f32908aa", "Prepare for ASP.NET Fundamentals exam", null },
-                    { 2, 3, new DateTime(2022, 5, 13, 18, 30, 6, 634, DateTimeKind.Local).AddTicks(6022), "Learn using EF Core and MS SQL Server Management Studio", "c2350e81-947f-4c5c-9899-b2f0f32908aa", "Improve EF Core skills", null },
-                    { 3, 2, new DateTime(2022, 10, 3, 18, 30, 6, 634, DateTimeKind.Local).AddTicks(6024), "Learn using ASP.NET Core Identity", "c2350e81-947f-4c5c-9899-b2f0f32908aa", "Improve ASP.NET Core skills", null },
-                    { 4, 3, new DateTime(2021, 10, 13, 18, 30, 6, 634, DateTimeKind.Local).AddTicks(6027), "Prepare by solving old Mid and Final exams", "c2350e81-947f-4c5c-9899-b2f0f32908aa", "Prepare for C# Fundamentals Exam", null }
+                    { 1, 1, new DateTime(2022, 9, 13, 20, 14, 23, 598, DateTimeKind.Local).AddTicks(6012), "Learn using ASP.NET Identity", "Prepare for ASP.NET Fundamentals exam", "a8f7b380-0bf2-47d6-b6c3-b091c5c7569d" },
+                    { 2, 3, new DateTime(2022, 5, 13, 20, 14, 23, 598, DateTimeKind.Local).AddTicks(6081), "Learn using EF Core and MS SQL Server Management Studio", "Improve EF Core skills", "a8f7b380-0bf2-47d6-b6c3-b091c5c7569d" },
+                    { 3, 2, new DateTime(2022, 10, 3, 20, 14, 23, 598, DateTimeKind.Local).AddTicks(6084), "Learn using ASP.NET Core Identity", "Improve ASP.NET Core skills", "a8f7b380-0bf2-47d6-b6c3-b091c5c7569d" },
+                    { 4, 3, new DateTime(2021, 10, 13, 20, 14, 23, 598, DateTimeKind.Local).AddTicks(6087), "Prepare by solving old Mid and Final exams", "Prepare for C# Fundamentals Exam", "a8f7b380-0bf2-47d6-b6c3-b091c5c7569d" }
                 });
 
             migrationBuilder.CreateIndex(
@@ -115,7 +115,7 @@ namespace TaskBoardApp.Data.Migrations
             migrationBuilder.DeleteData(
                 table: "AspNetUsers",
                 keyColumn: "Id",
-                keyValue: "c2350e81-947f-4c5c-9899-b2f0f32908aa");
+                keyValue: "a8f7b380-0bf2-47d6-b6c3-b091c5c7569d");
 
             migrationBuilder.DropColumn(
                 name: "FirstName",
